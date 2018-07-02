@@ -16,7 +16,7 @@
 
 .contact > h2{
     font-size: 40px;
-    font-family: 'Eurostile';
+    font-family: 'Eurostile', 'Jura';
     padding-bottom: 40px;
 }
 
@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    font-family: 'Eurostile';
+    font-family: 'Eurostile', 'Jura';
     font-style: italic;
     transition: ease-in-out all 0.5s;
     min-height: 50vh;
@@ -113,7 +113,7 @@
 
 .contactRight > h3 {
     font-size: 20px;
-    font-family: 'Eurostile';
+    font-family: 'Eurostile', 'Jura';
     height: 100%;
     display: flex;
     align-items: center;

@@ -42,7 +42,7 @@
     font-size: 36px;
     text-align: center;
     margin: 0px 0px 20px 0px;
-    font-family: 'Eurostile';
+    font-family: 'Eurostile', 'Jura';
 }
 
 .projectCard > ul{
@@ -102,7 +102,7 @@
 }
 
 .photoHeader > h2 {
-    font-family: 'Eurostile';
+    font-family: 'Eurostile', 'Jura';
     font-size: 36px;
 }
 
