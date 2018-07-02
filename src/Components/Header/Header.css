@@ -83,6 +83,13 @@ a{
     height: 40px;
 }
 
+.topOfHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .topOfHeader > h3{
     color: white;
     font-family: 'Eurostile', 'Jura';
