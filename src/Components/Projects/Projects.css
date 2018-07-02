@@ -1,0 +1,133 @@
+.projects{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.projectsContainer{
+    width: 90%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -200px;
+    -webkit-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 100px;
+    background: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.projectCard{
+    height: 100%;
+    position: relative;
+}
+
+.projectCard:nth-child(2){
+    border-right: 1px solid rgba(0,0,0,0.3);
+    border-left: 1px solid rgba(0,0,0,0.3);
+}
+
+.projectCard h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    font-family: 'Eurostile';
+}
+
+.projectCard > ul{
+    padding: 0px 20px;
+    margin-bottom: 60px;
+}
+
+.projectCard li {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.projectButtons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.projectCard .projectCardButton{
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    bottom: 0px;
+    color: #17bb77;
+}
+
+.projectCard .projectCardButton2{
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    bottom: 0px;
+    color: #FFCF1F;
+}
+
+.dialogHeader{
+    width: 100%;
+    height: 64px;
+    background: #17bb77;
+    -webkit-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.3);
+}
+
+.photoHeader{
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoHeader > h2 {
+    font-family: 'Eurostile';
+    font-size: 36px;
+}
+
+.dialogContent{
+    height: calc( 100vh - 64px );
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialogPhotos{
+    width: 80vw;
+    height: 80vh;
+}
+
+.dialogPhoto{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.dialogPhoto > img{
+    max-height: 100vh;
+    width: 100%;
+    -webkit-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.header{
+    width: 300px;
+    height: 100vh;
+    background: #1e3356;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    margin-top: 20px !important;
+}
+
+.header h2 {
+    border-bottom: 2px solid #ffffff71;
+    width: 220px;
+    text-align: right;
+    padding: 15px 0px 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #ffffff71;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 4px;
+    transition: ease-in-out all 0.2s, border 0s, border-radius 0s;
+}
+
+.header h2:hover{
+    color: #ffffff;
+}
+
+.header .active{
+    margin-right: -40px;
+    padding-right: 10px;
+    width: 260px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 0;
+    color: white;
+    transition: ease-in-out all 0.2s, border 0s, border-radius 0s; 
+    height: 42px;
+}
+
+.header .one {
+    background: linear-gradient(90deg, #55a5cd 0%, #17bb77 100%) left bottom no-repeat; 
+}
+
+.header .two {
+    background: linear-gradient(90deg, #17bb77 0%, #fff 100%) left bottom no-repeat; 
+    color: #1e3356;
+}
+
+.header .three {
+    background: linear-gradient(90deg, #55a5cd 0%, #17bb77 100%) left bottom no-repeat; 
+}
+
+.header .four{
+    background: linear-gradient(90deg, #17bb77 0%, #fff 100%) left bottom no-repeat; 
+    color: #1e3356;
+}
+
+.header .five{
+    background: linear-gradient(90deg, #55a5cd 0%, #17bb77 100%) left bottom no-repeat; 
+}
+
+.bottomOfHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottomOfHeader img {
+    width: 40px;
+    height: 40px;
+}
+
+.topOfHeader > h3{
+    color: white;
+    font-family: 'Eurostile';
+    font-size: 30px;
+}
+
+.topOfHeader > p {
+    color: #ffffff71;
+    font-family: 'Roboto';
+    text-align: right;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 5px;
+}

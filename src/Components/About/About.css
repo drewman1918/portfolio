@@ -1,0 +1,125 @@
+.about{
+    min-height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    min-height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: ease-in-out all 0.4s;
+}
+
+.slideLeft, .slideRight, .slideRight > img{
+    width: 100%;
+    min-height: 50vh;
+}
+
+.slideLeft{
+    padding: 20px;
+    background: #fff;
+}
+
+.slideLeft > h2{
+    color: #000;
+    font-size: 40px;
+    font-family: 'Eurostile';
+    text-align: center;
+    /* border-bottom: 3px solid #17bb77; */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.slideLeft > p {
+    color: #000;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.2;
+}
+
+.slideRight{
+    height: 100%;
+}
+
+.slideRight > img{
+    width: 100%;
+    height: 100%;
+}
+
+.offsetRight{
+    transform: translateX( calc( 100vw - 300px ));
+    transition: ease-in-out all 0.4s;
+}
+
+.offsetLeft{
+    transform: translateX( calc( -100vw + 300px ));
+    transition: ease-in-out all 0.4s;
+}
+
+.imageControls{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    opacity: 0;
+    margin-top: calc( 25vh - 22px );
+    transition: ease-in-out all 0.3s;
+}
+
+.about:hover .imageControls{
+    opacity: 1;
+    transition: ease-in-out all 0.3s;
+}
+
+.arrowContainer{
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    background: #17bb7791;
+    transition: ease-in-out all 0.3s;
+}
+
+.arrowContainer:hover{
+    background: #17bb77;
+    transition: ease-in-out all 0.3s;
+}
+
+.dotsContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #FFCF1F;
+    z-index: 100;
+}
+
+.sliderDot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: ease-in-out all 0.3s;
+}
+
+.sliderDot:hover{
+    background: #fff;
+}
+
+.activeDot{
+    background: #fff;
+}
+
+.goldBorder{
+    width: 100%;
+    height: 22px;
+    background: #FFCF1F;
+}

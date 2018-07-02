@@ -1,0 +1,92 @@
+.welcome{
+    background: #17bb77;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+canvas{
+  max-width: calc( 100vw - 315px );
+  min-height: 100vh;
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  overflow: hidden;
+}
+
+.welcomeContent{
+    margin: 50px 50px;
+    background: #ffffff2a;
+    width: 100%;
+    max-width: 2000px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    opacity: 1;
+    transition: ease-in-out all 1s;
+    border-radius: 5px;
+}
+
+.openingSize{
+    max-width: 0px;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    opacity: 0;
+    transition: ease-in-out all 1s;
+}
+
+.invisible{
+    opacity: 0;
+    transition: ease-in-out all 1s;
+}
+
+.visible{
+    opacity: 1;
+    transition: ease-in-out all 1s;
+}
+
+.headshot{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    transition: ease-in-out all 0.3s;
+}
+
+.welcomeContent h1 {
+    font-family: 'Eurostile';
+    color: white;
+    font-size: 56px;
+}
+
+
+.rightContent{
+    padding: 20px;
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+}
+
+.welcomeContent p {
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 26px;
+    margin-top: 60px;
+    padding-right: 30px;
+    line-height: 35px;
+}
+
+.overlay a{
+    height: 350px;
+    border-radius: 50%;
+}
+
+.overlay img:hover{
+    opacity: 0.9;
+    transition: ease-in-out all 0.3s;
+}
