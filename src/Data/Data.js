@@ -97,7 +97,7 @@ export default {
             li1: 'Simple application using CRON and Puppeteer to automatically check users into their flights exactly 24 hours in advance of takeoff. Built with React, NodeJS, Express, Massive, and PostgresQL.', 
             li2: 'This project was built to practice working with time across timezones, CRON scheduling, and automation.', 
             li3: '', 
-            link: 'https://checkin.drewbloomfield.com/#/dashboard',
+            link: 'https://www.checkin.drewbloomfield.com/#/dashboard',
             github: 'https://github.com/drewman1918/airlineCheckin',
             photos: [southwest1, southwest2]
         },
