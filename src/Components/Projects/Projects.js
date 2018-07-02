@@ -60,7 +60,7 @@ export default class Projects extends Component {
                     <div className="projectButtons">
                         <a href={project.link} target="blank"><Button className="projectCardButton">Demo</Button></a>
                         <a href={project.github} target="blank"><Button className="projectCardButton2">Github</Button></a>
-                        <a><Button className="projectCardButton" onClick={ () => this.handleClickOpen(i)}>Media</Button></a>
+                        <a><Button className="projectCardButton" onClick={ () => this.handleClickOpen(i)}>Photos</Button></a>
                     </div>
 
                     <div className="projectModal">
