@@ -14,7 +14,6 @@
     text-transform: uppercase;
     text-align: center;
     font-size: 22px;
-    border-bottom: 5px solid #FFCF1F;
     padding: 0px 40px 40px;
     margin-bottom: 30px;
     letter-spacing: 4px;
@@ -30,7 +29,7 @@
 .skillsContainer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 250px;
+    /* margin-bottom: 250px; */
 }
 
 .skillsContainer img{
@@ -70,4 +69,63 @@
     font-size: 16px;
     margin-top: 15px;
     text-align: center;
+}
+
+.skillsHeader{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-family: 'Eurostile', 'Jura';
+    font-size: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skillsHeader:before, .skillsHeader:after {
+  content: "";
+  display: inline-block;
+  width: 10%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 2px solid;
+}
+
+.skillsHeader:after {
+  margin: 0 -55% 0 .5em;
+}
+
+
+.projectsHeader{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-family: 'Eurostile', 'Jura';
+    font-size: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2000px;
+    margin-top: 75px;
+    margin-bottom: 200px;
+}
+
+.projectsHeader:before, .projectsHeader:after {
+  content: "";
+  display: inline-block;
+  width: 10%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 2px solid;
+}
+
+.projectsHeader:after {
+  margin: 0 -55% 0 .5em;
 }

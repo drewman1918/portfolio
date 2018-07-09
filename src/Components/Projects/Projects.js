@@ -96,11 +96,11 @@ export default class Projects extends Component {
 
         return (
             <div className="projects" id="projects2">
-                <ScrollableAnchor id="projects">
+                
                     <div className="projectsContainer">
                         {cards}
                     </div>
-                </ScrollableAnchor>
+                
             </div>
         )
     }

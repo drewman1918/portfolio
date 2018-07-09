@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import data from './../../Data/Data';
+import ScrollableAnchor from 'react-scrollable-anchor';
 import "./Skills.css"
 
 export default class Skills extends Component{
@@ -69,10 +70,17 @@ export default class Skills extends Component{
         
         return (
             <div className="skills" id="skills2">
-                <h2 className = "skillsTitle"  id = "skillsTitle">{data.skillsTitle}</h2>
+                
+                <h2 className="skillsTitle" id="skillsTitle">
+                    <h3 className="skillsHeader">My Skills</h3>
+                    {data.skillsTitle}
+                </h2>
+
                 <div className="skillsContainer">
                     {cards}
                 </div>
+
+                <ScrollableAnchor id="projects"><h3 className="projectsHeader">My Projects</h3></ScrollableAnchor>
             </div>
         )
     }

@@ -84,7 +84,7 @@ export default class About extends Component{
 
         return (
             <div>
-                <div className="goldBorder"></div>
+                <h3 className="goldBorder">About Me</h3>
 
                 <div className="about" id="about2">
                     {this.state.slides}
