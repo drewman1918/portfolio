@@ -1,5 +1,4 @@
 import React from 'react';
-import cosmoImg from "./assets/Cosmo.jpg"
 import css from './assets/css3.svg';
 import express from './assets/express.png';
 import git from './assets/git.svg';
@@ -26,6 +25,12 @@ import BYU from './assets/BYU Graduation.jpg';
 import cosmoDunk from './assets/cosmoDunk.jpg';
 import china from './assets/china.png';
 import devmountain from './assets/devmountain.jpeg';
+import medTel1 from './assets/medTel1.png'
+import medTel2 from './assets/medTel2.png'
+import medTel3 from './assets/medTel3.png'
+import medTel4 from './assets/medTel4.png'
+import medTel5 from './assets/medTel5.png'
+import medTel6 from './assets/medTel6.png'
 
 export default {
 
@@ -35,7 +40,7 @@ export default {
             title: "Brigham Young University",
             description: "I spent four years studying Economics at BYU, and graduated in April 2017 with a 3.85 GPA in Economics. My education taught me to think analytically to find meaningful insights hidden in big data.",
             img: BYU,
-            alt: "Cosmo"
+            alt: "BYU"
         },
         {
             title: "Cosmo & Dunk Team",
@@ -47,13 +52,13 @@ export default {
             title: "PureBloom Products",
             description: "After graduating I partnered with my sisters to form PureBloom Products, an eCommerce business. I started developing WordPress sites here, but mainly we focused on Amazon. My primary responsibility was to analyze markets on Amazon to find profitable niches, and assist in sourcing products from China.",
             img: china,
-            alt: "Cosmo"
+            alt: "pureBloom"
         },
         {
             title: "DevMountain",
             description: "While working for PureBloom I realized my favorite responsibilities were developing the websites and creating our business reports on Google Sheets. I began to explore coding further, and finally took the leap by enrolling at DevMountain in April 2018.",
             img: devmountain,
-            alt: "Cosmo"
+            alt: "devMountain"
         },
     ],
 
@@ -104,14 +109,14 @@ export default {
             
         {
             img: <Add style={{ width: '100px', height: '100px', color: '#17bb77' }} />,
-            alt: 'drexytime',
+            alt: 'medTel',
             title: 'MedTel', 
-            li1: 'Coming Soon', 
-            li2: "", 
-            li3: '', 
-            link: '',
+            li1: 'Group project using React, NodeJS, Express, Massive, BCrypt and PostgresQL to beautiful and simplify the medical charting process.', 
+            li2: 'Schedule patient visits, track visits, conditions, allergies, medical devices, medications, family medical history, and lab/imaging results.', 
+            li3: 'Used no third party software for session or security, all was custom built. Complex server and database to capture immense amounts of data on each patient.', 
+            link: 'https://medtel.devmtn-projects.com/#/',
             github: 'https://github.com/CARSDev/MedTel',
-            photos: [drexyTime, drexyTime, drexyTime]
+            photos: [medTel1, medTel2, medTel3, medTel4, medTel5, medTel6,]
         },
         
     ]
