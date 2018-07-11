@@ -113,7 +113,7 @@ export default {
             title: 'MedTel', 
             li1: 'Group project using React, NodeJS, Express, Massive, BCrypt and PostgresQL to beautiful and simplify the medical charting process.', 
             li2: 'Schedule patient visits, track visits, conditions, allergies, medical devices, medications, family medical history, and lab/imaging results.', 
-            li3: 'Used no third party software for session or security, all was custom built. Complex server and database to capture immense amounts of data on each patient.', 
+            li3: 'Used no third party software for sessions, security was custom built with BCrypt. Complex server and database to capture immense amounts of data on each patient.', 
             link: 'https://medtel.devmtn-projects.com/#/',
             github: 'https://github.com/CARSDev/MedTel',
             photos: [medTel1, medTel2, medTel3, medTel4, medTel5, medTel6,]
