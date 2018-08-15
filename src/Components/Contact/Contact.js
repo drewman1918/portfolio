@@ -92,7 +92,7 @@ export default class Contact extends Component {
 
                 <div className="contactRight">
                     
-                    <h3>I currently live in Alpine, Utah</h3>
+                    <h3>I currently live in McKinney, Texas</h3>
                     
                     <MapContainer />
                 

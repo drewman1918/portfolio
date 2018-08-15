@@ -15,15 +15,15 @@ export class MapContainer extends Component {
                 google={this.props.google}
                 style={style}
                 initialCenter={{
-                    lat: 40.4526041,
-                    lng: -111.7802204
+                    lat: 33.1946944,
+                    lng: -96.6436023
                 }}
                 zoom={11}
             >
                 <Marker
                     title={'The marker`s title will appear as a tooltip.'}
                     name={'SOMA'}
-                    position={{ lat: 40.4526041, lng: -111.7802204 }} />
+                    position={{ lat: 33.1946944, lng: -96.6436023 }} />
                 </Map>
                 
             </div>
