@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import data from './../../Data/Data';
 import Button from '@material-ui/core/Button';
-import ScrollableAnchor from 'react-scrollable-anchor';
 import "./Projects.css"
 import Dialog from '@material-ui/core/Dialog';
 import IconButton from '@material-ui/core/IconButton';
@@ -58,9 +57,9 @@ export default class Projects extends Component {
                     </ul>
 
                     <div className="projectButtons">
-                        <a href={project.link} target="blank"><Button className="projectCardButton">Demo</Button></a>
-                        <a href={project.github} target="blank"><Button className="projectCardButton2">Github</Button></a>
-                        <a><Button className="projectCardButton" onClick={ () => this.handleClickOpen(i)}>Photos</Button></a>
+                        {(project.link) ? <a href={project.link} target="blank"><Button className="projectCardButton">Demo</Button></a> : null}
+                        {(project.github) ? <a href={project.github} target="blank"><Button className="projectCardButton2">Github</Button></a> : null}
+                        {(project.photos) ? <a><Button className="projectCardButton" onClick={() => this.handleClickOpen(i)}>Photos</Button></a> : null}
                     </div>
 
                     <div className="projectModal">

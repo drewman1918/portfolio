@@ -11,8 +11,7 @@ import postgres from './assets/postgresql.svg';
 import postman from './assets/postmanLogo.png';
 import react from './assets/react.svg';
 import redux from './assets/redux.svg';
-import Alarm from '@material-ui/icons/Alarm';
-import Add from '@material-ui/icons/Add';
+import { Alarm, Add, Android, QuestionAnswer } from '@material-ui/icons';
 import Airplane from '@material-ui/icons/AirplanemodeActive';
 import drexyTime from './assets/drexytime.png';
 import drexyTime2 from './assets/drexytime2.png';
@@ -31,6 +30,11 @@ import medTel3 from './assets/medTel3.png'
 import medTel4 from './assets/medTel4.png'
 import medTel5 from './assets/medTel5.png'
 import medTel6 from './assets/medTel6.png'
+import eqometer1 from './assets/eqometer1.png'
+import eqometer2 from './assets/eqometer2.png'
+import eqometer3 from './assets/eqometer3.png'
+import eqometer4 from './assets/eqometer4.png'
+import eqometer5 from './assets/eqometer5.png'
 
 export default {
 
@@ -85,6 +89,15 @@ export default {
     //DATA FOR PROJECTS
     projectsCards: [
         {
+            img: <QuestionAnswer style={{ width: '100px', height: '100px', color: '#17bb77' }} />, 
+            alt: 'EQometer', 
+            title: 'EQometer',
+            li1: 'Commissioned by Leader Factor to deliver their 180-question emotional intelligence survey. Fully mobile repsonive. Development nearly completed (September 2018).',
+            li2: 'Displays in-depth reporting in a dashboard and a downloadable PDF.',
+            li3: 'Organizational capabilities - managers can register, pay for, and see results for their employees.', 
+            photos: [eqometer1, eqometer2, eqometer3, eqometer4, eqometer5]
+        },
+        {
             img: <Alarm style={{ width: '100px', height: '100px', color: '#17bb77' }} />, 
             alt: 'drexytime', 
             title: 'DrexyTime',
@@ -106,7 +119,6 @@ export default {
             github: 'https://github.com/drewman1918/airlineCheckin',
             photos: [southwest1, southwest2]
         },
-            
         {
             img: <Add style={{ width: '100px', height: '100px', color: '#17bb77' }} />,
             alt: 'medTel',
@@ -118,6 +130,23 @@ export default {
             github: 'https://github.com/CARSDev/MedTel',
             photos: [medTel1, medTel2, medTel3, medTel4, medTel5, medTel6,]
         },
-        
+        {
+            img: <Android style={{ width: '100px', height: '100px', color: '#17bb77' }} />,
+            alt: 'Discord Bot',
+            title: 'Discord Bot', 
+            li1: 'Small discord bot for computer gamers built with Node.JS.', 
+            li2: 'Listens and responds to various commands to return helpful information.', 
+            li3: '', 
+            github: 'https://github.com/drewman1918/discord-bot',
+        },
+        {
+            img: <Alarm style={{ width: '100px', height: '100px', color: '#17bb77' }} />,
+            alt: 'Electron Timer',
+            title: 'Electron Timer', 
+            li1: 'Small countdown timer built with Electron for MacOS and Windows.', 
+            li2: 'Will send a desktop notification when the time has elapsed. Simply built to practice electron.', 
+            li3: 'Used by computer gamers who "AFK" for set intervals, and need to be reminded when their current activity needs attention.', 
+            github: 'https://github.com/drewman1918/afk-timer',
+        },
     ]
 }
